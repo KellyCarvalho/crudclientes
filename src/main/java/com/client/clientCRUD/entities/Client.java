@@ -90,6 +90,8 @@ public class Client implements Serializable{
 	public int hashCode() {
 		return Objects.hash(id);
 	}
+	
+	
 
 	@Override
 	public boolean equals(Object obj) {
